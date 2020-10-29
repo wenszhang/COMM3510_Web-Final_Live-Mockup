@@ -42,6 +42,10 @@ a {
     -webkit-transform: rotate(135deg);
 }
 
+#link-arrow{
+    display: inline-block;
+}
+
 /* Landing page =============================================================== */
 #landing-wrapper {
     position: fixed;
@@ -77,6 +81,7 @@ a {
     color: #9b9b9b;
     display: block;
     font-size: 5vh;
+    padding: -1vh;
 }
 
 .landing-nav .arrow {
@@ -103,10 +108,6 @@ a {
     top: -1vh;
 }
 
-.landing-nav #link-arrow{
-    display: inline-block;
-}
-
 .landing-nav .delayed{
     animation-delay: 0.1s;
 }
@@ -127,7 +128,7 @@ a {
 
 /* Gallery page =============================================================== */
 
-/* Animations =============================================================== */
+/* Animations ================================================================= */
 
 /* Light fade --------------------------------- */
 @keyframes pulse {
